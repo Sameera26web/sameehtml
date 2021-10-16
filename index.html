@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{ 
+height:100vh;
+width:100vw;
+backgroud-color: black;
+display:flex;
+align-items: center;
+justify-content: center;
+font-family:Elephant;
+color: black;
+}
+
+.flex-container > div {
+  background-color: #FFFEFA;
+  margin: 60px;
+  padding: 20px;
+}
+
+
+.split {
+  height: 500%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  padding:30px;
+}
+
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:  #FFFEFA;
+}
+
+li a {
+  display: block;
+  color: grey;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-family:timesnewroman;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.button {
+  background-color: Red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: solid 1px Red;
+  border-radius: 30px;
+}
+
+.right {
+  right: 0;
+  font-size:30px;
+  padding-top: 80px;
+  padding-left:25px;
+  margin-top: 60px;
+  float:left;
+  
+}
+.main
+{
+display: flex;
+}
+main.p
+{
+font-size:5px;
+margin-left:50px;
+margin-top:50px;
+
+}
+
+div.polaroid {
+  width: 150px;
+  height:190px;
+  border:solid 1px white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:30px;
+  text-align: center;
+  float:left;
+  padding:20px;
+  margin-left:10px;
+  margin-top: 100px;
+}
+
+div.container {
+  padding: 1px;
+  font-family:Arial Rounded MT Bold;
+}
+
+div.polaroid img {
+  border-radius:50%;
+}
+.polaroid {
+  box-sizing: border-box;
+}
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+<div>
+<div class="flex-container">
+<div class="split left">
+   <h2>Loreum<br> ipsum</h2>
+   
+<ul>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Services">Services</a></li>
+  <li><a href="#Cushine">Cushine</a></li>
+  <li><a href="#Gallery">Gallery</a></li>
+  <li><a href="#Contact">Contact</a></li>
+  <li><a href="#Book">Book</a></li>
+</ul>
+<button class="button">Cart</button>
+</div>
+
+
+<div class="split right">
+  <div class="centered">
+    <div class="main">
+    <h2 style="display: inline;">What are you<br>having for lunch?</h2>
+    <div>
+    <p style="font-size:35%;">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit,<br>sed do eiusmod tempor<br> incididunt ut labore et.</p>
+    <hr>
+    </div>
+    </div>
+    </div>
+    <div class="polaroid">
+  <img src="C:\Users\abc\Desktop\projecthtml\image1.jpg" alt="tacos" style= "width:100px">
+  <div class="container">
+    <p style="font-size:40%;"><b>Mexican Tacos</p>
+  </div>
+</div>
+<div class="polaroid">
+  <img src="C:\Users\abc\Desktop\projecthtml\image2.jpg" alt="tacos" style="width:100px" "height:50px">
+  <div class="container">
+    <p style="font-size:40%;"><b>Farmhouse Pizza</p>
+  </div>
+</div>
+<div class="polaroid">
+  <img src="C:\Users\abc\Desktop\projecthtml\image3.jpg" alt="tacos" style="width:100px" height:50px">
+  <div class="container">
+    <p style="font-size:40%;"><b>Chicken Burger</p>
+  </div>
+</div>
+<div class="polaroid">
+  <img src="C:\Users\abc\Desktop\projecthtml\image4.jpg" alt="tacos" style="width:120px">
+  <div class="container">
+    <p style="font-size:40%;"><b>Loaded Nachos</p>
+  </div>
+</div>
+<div class="polaroid">
+  <img src="C:\Users\abc\Desktop\projecthtml\image5.jpg" alt="tacos" style="width:90px" "height:50px">
+  <div class="container">
+    <p style="font-size:40%;"><b>Hakka Noodles</p>
+  </div>
+</div>
+</div>
+</div>
+     
+</body>
+</html> 
+ 
